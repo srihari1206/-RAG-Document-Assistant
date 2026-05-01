@@ -7,7 +7,7 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 
 # 1. ADD YOUR KEY HERE
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBV2KXNAdOpj5qD4H3-w4ZcC2BlINudIoM"
+os.environ["GOOGLE_API_KEY"] = "YOUR_API_KEY_HERE"
 
 # 2. LOAD EVERYTHING GLOBALLY (So it doesn't reload on every single question)
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
