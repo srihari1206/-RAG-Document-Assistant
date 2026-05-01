@@ -1,0 +1,19 @@
+pip Formate:
+"""pip install fastapi uvicorn pydantic langchain-core langchain-community 
+langchain-huggingface langchain-text-splitters langchain-google-genai google-generativeai 
+pypdf chromadb sentence-transformers"""
+
+Tools List:
+
+fastapi
+uvicorn
+pydantic
+langchain-core
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+langchain-google-genai
+google-generativeai
+pypdf
+chromadb
+sentence-transformers
